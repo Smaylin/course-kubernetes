@@ -4,21 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4fdb9f4-9c81-41c3-961a-10938dc6dc90" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/srobles/apringcloud/msvc/Main.java" afterDir="false" />
+    <list default="true" id="b4fdb9f4-9c81-41c3-961a-10938dc6dc90" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/msvc-users/src/main/java/org/srobles/srpringcloud/msvc/users/models/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msvc-users/src/main/java/org/srobles/srpringcloud/msvc/users/repositories/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msvc-users/src/main/java/org/srobles/srpringcloud/msvc/users/services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msvc-users/src/main/java/org/srobles/srpringcloud/msvc/users/services/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-users/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-users/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-users/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-users/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/msvc-users" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -31,9 +44,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "spring.configuration.checksum": "0dbb4e5e7c5dcbe51d27edc38483d9e3"
   }
 }]]></component>
   <component name="RunManager" selected="Spring Boot.MsvcUsersApplication">
@@ -71,8 +90,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1687349865174</updated>
-      <workItem from="1687349866912" duration="1060000" />
+      <workItem from="1687349866912" duration="3965000" />
+      <workItem from="1687616938944" duration="1504000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1687351303031</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1687351303031</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,5 +116,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>
